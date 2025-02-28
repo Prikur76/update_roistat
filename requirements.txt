@@ -1,6 +1,6 @@
 requests==2.32.3
 environs~=11.0.0
 pandas==2.2.3
-psycopg2==2.9.10
-sqlalchemy==2.0.35
+# sqlalchemy==2.0.35
 boto3~=1.34.116
+psycopg2-binary==2.9.10
