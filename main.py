@@ -27,7 +27,7 @@ def main():
         "payments": process_payments
     }
 
-    for env in ["test", "prod"]:   # "prod"
+    for env in ["test", "prod"]:
         schema_manager = DBSchema(DB_PARAMS[env])
         updater = DBUpdater(DB_PARAMS[env], UNIQUE_COLUMNS)
 
